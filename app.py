@@ -31,4 +31,10 @@ with gr.Blocks(title="AI 影像鑑識系統") as demo:
 
 # 啟動網頁
 if __name__ == "__main__":
-    demo.launch()
+    # 決定你要怎麼開店 (二選一)：
+    
+    # 做法 A：產生公開連結，可以丟給組員看 (有效期限 72 小時)
+    demo.launch(share=True) 
+    
+    # 做法 B：如果你只想在自己電腦上看，就把上面那行刪掉，改成下面這行：
+    # demo.launch()
